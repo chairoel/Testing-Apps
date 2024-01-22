@@ -25,6 +25,9 @@ class MyUnitTestViewModelTest {
         viewModel = MyUnitTestViewModel(cuboidModel)
     }
 
+    /**
+     * JUnit
+     */
     @Test
     fun testVolume() {
         cuboidModel = CuboidModel()
@@ -34,6 +37,9 @@ class MyUnitTestViewModelTest {
         assertEquals(dummyVolume, volume, 0.0001)
     }
 
+    /**
+     * JUnit
+     */
     @Test
     fun testCircumference() {
         cuboidModel = CuboidModel()
@@ -43,6 +49,9 @@ class MyUnitTestViewModelTest {
         assertEquals(dummyCircumference, circumference, 0.0001)
     }
 
+    /**
+     * JUnit
+     */
     @Test
     fun testSurfaceArea() {
         cuboidModel = CuboidModel()
