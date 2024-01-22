@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.idcamp.testingapps.databinding.ActivityMainBinding
-import com.idcamp.testingapps.unittest.junit.MyUnitTestActivity
+import com.idcamp.testingapps.unittest.MyUnitTestActivity
 
 class MainActivity : AppCompatActivity() {
 

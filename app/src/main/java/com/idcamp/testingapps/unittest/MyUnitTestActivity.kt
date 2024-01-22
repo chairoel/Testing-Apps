@@ -1,4 +1,4 @@
-package com.idcamp.testingapps.unittest.junit
+package com.idcamp.testingapps.unittest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

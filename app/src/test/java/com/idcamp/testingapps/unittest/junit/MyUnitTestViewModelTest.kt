@@ -1,5 +1,7 @@
 package com.idcamp.testingapps.unittest.junit
 
+import com.idcamp.testingapps.unittest.CuboidModel
+import com.idcamp.testingapps.unittest.MyUnitTestViewModel
 import org.junit.Assert.*
 import org.junit.Before
 

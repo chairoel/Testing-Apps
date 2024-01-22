@@ -1,4 +1,4 @@
-package com.idcamp.testingapps.unittest.junit
+package com.idcamp.testingapps.unittest
 
 class MyUnitTestViewModel(private val cuboidModel: CuboidModel) {
     fun getCircumference() = cuboidModel.getCircumference()
