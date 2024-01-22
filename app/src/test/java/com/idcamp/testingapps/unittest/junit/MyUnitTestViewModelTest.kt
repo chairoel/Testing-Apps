@@ -5,6 +5,8 @@ import org.junit.Before
 
 import org.junit.Test
 import org.mockito.Mockito.mock
+import org.mockito.Mockito.verify
+import org.mockito.Mockito.`when`
 
 class MyUnitTestViewModelTest {
 
@@ -61,4 +63,36 @@ class MyUnitTestViewModelTest {
         assertEquals(dummySurfaceArea, surfaceArea, 0.0001)
     }
 
+    /**
+     * Mock
+     */
+    @Test
+    fun testMockVolume() {
+        `when`(viewModel.getVolume()).thenReturn(dummyVolume)
+        val volume = viewModel.getVolume()
+        verify(cuboidModel).getVolume()
+        assertEquals(dummyVolume, volume, 0.0001)
+    }
+
+    /**
+     * Mock
+     */
+    @Test
+    fun testMockCircumference() {
+        `when`(viewModel.getCircumference()).thenReturn(dummyCircumference)
+        val circumference = viewModel.getCircumference()
+        verify(cuboidModel).getCircumference()
+        assertEquals(dummyCircumference, circumference, 0.0001)
+    }
+
+    /**
+     * Mock
+     */
+    @Test
+    fun testMockSurfaceArea() {
+        `when`(viewModel.getSurfaceArea()).thenReturn(dummySurfaceArea)
+        val surfaceArea = viewModel.getSurfaceArea()
+        verify(cuboidModel).getSurfaceArea()
+        assertEquals(dummySurfaceArea, surfaceArea, 0.0001)
+    }
 }
