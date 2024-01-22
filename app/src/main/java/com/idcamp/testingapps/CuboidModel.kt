@@ -1,4 +1,4 @@
-package com.idcamp.testingapps.unittest
+package com.idcamp.testingapps
 
 class CuboidModel {
     private var width = 0.0

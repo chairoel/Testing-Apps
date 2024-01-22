@@ -1,6 +1,6 @@
-package com.idcamp.testingapps.unittest
+package com.idcamp.testingapps
 
-class MyUnitTestViewModel(private val cuboidModel: CuboidModel) {
+class MainViewModel(private val cuboidModel: CuboidModel) {
     fun getCircumference() = cuboidModel.getCircumference()
 
     fun getSurfaceArea() = cuboidModel.getSurfaceArea()
